@@ -1,0 +1,56 @@
+{
+	"extends": "airbnb",
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"quotes": [
+			1,
+			"single"
+		],
+		"indent": [
+			2,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"semi": [
+			1,
+			"never"
+		],
+		"import/extensions": 0,
+		"no-tabs": 0,
+		"react/jsx-filename-extension": [
+			2,
+			{
+				"extensions": [
+					".js",
+					".jsx"
+				]
+			}
+		],
+		"react/forbid-prop-types": [
+			0
+		],
+		"react/require-default-props": [
+			0
+		],
+		"react/jsx-indent": [
+			2,
+			"tab"
+		],
+		"react/jsx-indent-props": [
+			2,
+			"tab"
+		],
+		"global-require": [
+			0
+		]
+	}
+}
